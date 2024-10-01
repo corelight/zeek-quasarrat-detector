@@ -30,3 +30,9 @@ You can find Suricata rules in the "suri" directory.
 
 - QuasarRAT
   - https://app.any.run/tasks/09ffabf7-774a-43a3-8c97-68f2046fd385#
+  - https://app.any.run/tasks/e381f9d7-5038-42d1-9845-e79be15c036d#
+  - https://app.any.run/tasks/09ffabf7-774a-43a3-8c97-68f2046fd385
+  - https://app.any.run/tasks/9e1222a6-4ec4-46f0-bf27-ff77db65b645
+  - https://app.any.run/tasks/2bcb2f8f-6aab-420e-a847-90f2788beddd
+  - https://app.any.run/tasks/36bf4f77-a915-4c15-9f17-93940f4cfb83
+
