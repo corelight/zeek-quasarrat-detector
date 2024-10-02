@@ -5,6 +5,7 @@ summary = An QuasarRAT malware detector.
 description = An QuasarRAT malware detector.
 depends = 
 	zeek >=4.0.0
+	ja3 *
 
 [template]
 source = https://github.com/zeek/package-template
