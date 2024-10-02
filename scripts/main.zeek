@@ -1,6 +1,6 @@
 module QuasarRAT;
 
-@load ja3
+@load packages/ja3
 
 export {
 	## The notice when QuasarRAT C2 is observed.
