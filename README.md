@@ -15,11 +15,12 @@ critical infrastructure in the United States.
 #empty_field	(empty)
 #unset_field	-
 #path	notice
-#open	2024-09-20-00-36-35
+#open	2024-10-03-13-38-25
 #fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	email_dest	suppress_for	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
 #types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	set[string]	interval	string	string	string	double	double
-1723831638.402474	CABkjv381UgODCw5Cc	192.168.100.7	49744	86.136.67.231	1337	-	-	-	tcp	QuasarRAT::C2_Traffic_Observed	Potential QuasarRAT C2 discovered via a default SSL certificate.	-	192.168.100.7	86.136.67.231	1337	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
-#close	2024-09-20-00-36-35
+1723831638.402474	CpKJJiDUPEBNMGSC	192.168.100.7	49744	86.136.67.231	1337	-	-	-	tcp	QuasarRAT::C2_Traffic_Observed_Cert	Potential QuasarRAT C2 - default SSL certificate discovered.	-	192.168.100.7	86.136.67.231	1337	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1723831638.402474	CpKJJiDUPEBNMGSC	192.168.100.7	49744	86.136.67.231	1337	-	-	-	tcp	QuasarRAT::C2_Traffic_Observed_JA3	Potential QuasarRAT C2 - client JA3 discovered.	-	192.168.100.7	86.136.67.231	1337	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+#close	2024-10-03-13-38-25
 ```
 
 ### Suricata Rules
