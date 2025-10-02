@@ -1,8 +1,10 @@
 module QuasarRAT;
 
 export {
-	## The notices when QuasarRAT C2 is observed.
-	redef enum Notice::Type += { C2_Traffic_Observed_Cert };
+	redef enum Notice::Type += {
+		## Potential QuasarRAT C2 - default SSL certificate discovered.
+		C2_Traffic_Observed_Cert
+	};
 }
 
 event ssl_established(c: connection)
